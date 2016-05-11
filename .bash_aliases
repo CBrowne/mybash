@@ -6,3 +6,4 @@ alias jswitch='sudo update-alternatives --config java';
 alias mygit='git config --global user.name "CBrowne" && git config --global user.email "calebrjbrowne@gmail.com" && git config --list';
 alias mscan='java -jar ~/dev/mongo-stats.jar $1 $2';
 alias mscang='java -jar ~/dev/mongo-stats-gui.jar $1 $2';
+alias gpom='git push origin master';
