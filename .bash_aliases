@@ -1,4 +1,6 @@
-alias h2d='printf "%d\\n" $1'; 
+alias m='mvn clean install';
+alias dockdest='docker rm -f $(docker ps -a -q) && docker rmi $(docker images -q)';
+alias h2d='printf "%d\\n" $1';
 alias his='history | grep $1';
 alias c='reset';
 alias pg='ps -ef | grep $1';
