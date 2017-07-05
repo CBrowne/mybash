@@ -9,3 +9,6 @@ alias redstart='~/tools/redis-3.2.3/src/redis-server';
 alias redis-cli='~/tools/redis-3.2.3/src/redis-cli';
 alias mygit='git config --global user.name "CBrowne" && git config --global user.email "calebrjbrowne@gmail.com" && git config --list';
 alias f='cd ~/IdeaProjects/';
+alias x='exit';
+alias p='ps -ef | grep $1';
+alias t='tree';
