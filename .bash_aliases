@@ -1,3 +1,4 @@
+alias mc='rm -rf ~/.m2/repository/* && mvn clean install';
 alias m='mvn clean install';
 alias dockdest='docker rm -f $(docker ps -a -q) && docker rmi $(docker images -q)';
 alias h2d='printf "%d\\n" $1';
