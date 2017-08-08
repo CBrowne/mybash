@@ -12,4 +12,4 @@ alias mygit='git config --global user.name "CBrowne" && git config --global user
 alias f='cd ~/IdeaProjects/';
 alias x='exit';
 alias p='ps -ef | grep $1';
-alias t='tree';
+alias t='task';
