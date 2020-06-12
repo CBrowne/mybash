@@ -1,15 +1,9 @@
-alias mc='rm -rf ~/.m2/repository/* && mvn clean install';
 alias m='mvn clean install';
-alias dockdest='docker rm -f $(docker ps -a -q) && docker rmi $(docker images -q)';
+alias ms='mvn clean install -DskipTests';
 alias h2d='printf "%d\\n" $1';
 alias his='history | grep $1';
 alias c='reset';
 alias pg='ps -ef | grep $1';
-alias jswitch='sudo update-alternatives --config java';
-alias redstart='~/tools/redis-3.2.3/src/redis-server';
-alias redis-cli='~/tools/redis-3.2.3/src/redis-cli';
-alias mygit='git config --global user.name "CBrowne" && git config --global user.email "calebrjbrowne@gmail.com" && git config --list';
 alias f='cd ~/IdeaProjects/';
-alias x='exit';
 alias p='ps -ef | grep $1';
 alias t='task';
